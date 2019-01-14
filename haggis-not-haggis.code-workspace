@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "haggis-detector-webapp"
+		},
+		{
+			"path": "model-training"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
