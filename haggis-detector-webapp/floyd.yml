@@ -1,2 +1,2 @@
-env: tensorflow-1.10
+env: tensorflow-1.11
 machine: cpu
