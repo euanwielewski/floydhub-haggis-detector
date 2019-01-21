@@ -12,6 +12,11 @@ from keras.preprocessing.image import ImageDataGenerator
 TRAIN_DATA_DIR = '/data/train/' # Point to directory with your data
 VALID_DATA_DIR = '/data/validation/'
 
+# Model parameters
+NUM_CLASSES = 2
+INPUT_SIZE = 224 # Width/height of image in pixels (224 for ResNet/VGG16, 299 for Xception model)
+LEARNING_RATE = 0.0001
+
 # For GPU training - script will check if GPU is available
 BATCH_SIZE_GPU = 32 # Number of images used in each iteration
 EPOCHS_GPU = 50 # Number of passes through entire dataset
@@ -19,11 +24,6 @@ EPOCHS_GPU = 50 # Number of passes through entire dataset
 # For CPU training
 BATCH_SIZE_CPU = 4
 EPOCHS_CPU = 1
-
-# Model parameters
-NUM_CLASSES = 2
-INPUT_SIZE = 224 # Width/height of image in pixels (224 for ResNet/VGG16, 299 for Xception model)
-LEARNING_RATE = 0.0001
 
 if test.is_gpu_available(): # Check if GPU is available
     BATCH_SIZE = BATCH_SIZE_GPU # GPU
