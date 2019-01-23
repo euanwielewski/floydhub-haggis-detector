@@ -1,0 +1,5 @@
+env: tensorflow-1.12
+machine: gpu
+input:
+  - source: euanwielewski/datasets/haggis-dataset/1
+    destination: data
