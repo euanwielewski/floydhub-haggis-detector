@@ -6,6 +6,6 @@ To train the model on a GPU on FloydHub, simply clone this repository locally, i
 
 ```$ floyd run```
 
-Alternatively, you can launch a FloydHub Workspace by clicking the button below and then run the `training.py` script through the Jupyter environment:
+Alternatively, you can launch a FloydHub Workspace (GPU) by clicking the button below and then run the `training.py` script through the Jupyter environment:
 
 [![Run on FloydHub](https://static.floydhub.com/button/button-small.svg)](https://floydhub.com/run?template=https://github.com/euanwielewski/floydhub-haggis-detector)
