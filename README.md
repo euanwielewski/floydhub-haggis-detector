@@ -15,7 +15,9 @@ To make your quest to find a haggis a little easier, I will take you through how
 
 You can find the FloydHub blogpost associated with this project here: LINK
 
-You can also click the 'Run on FloydHub' button to launch a FloydHub Workspace with the data and this GitHub repo attached: [![Run on FloydHub](https://static.floydhub.com/button/button-small.svg)](https://floydhub.com/run?template=https://github.com/euanwielewski/floydhub-haggis-detector)
+You can also click the 'Run on FloydHub' button to launch a FloydHub Workspace with the data and this GitHub repo attached:
+
+ [![Run on FloydHub](https://static.floydhub.com/button/button-small.svg)](https://floydhub.com/run?template=https://github.com/euanwielewski/floydhub-haggis-detector)
 
 Happy haggis hunting!
 
